@@ -1,3 +1,5 @@
+// C program that takes a random key, encrypts that password with the random key and sends it to the server
+// Then the server cross checks the password and sends it back to the client and client has to decrypt it with the same key
 #include<sys/types.h>
 #include<sys/socket.h>
 #include<stdio.h>
