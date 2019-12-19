@@ -1,3 +1,6 @@
+// C program that stores a password in a variable. The client password is sent to the server after encrypting it.
+// Server decrypts it with the key and authenticates the password. And sends a response to the user
+
 #include<sys/types.h>
 #include<sys/socket.h>
 #include<stdio.h>
